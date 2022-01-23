@@ -124,12 +124,12 @@ a {
 
 .title-marvel2 {
   font-weight: bolder;
-  color: #020103;
+  color:#020103;
   font-size: 25%;
   letter-spacing: 1px;
   text-transform: uppercase;
   padding: 6px 12px;
-  background: #9b00f5;
+  background:#9b00f5;
 }
 
 .title-studios2 {
@@ -141,9 +141,9 @@ a {
   letter-spacing: 1px;
   text-transform: uppercase;
   padding: 0 5px;
-  border-color: #9b00f5;
   border-top: 8px solid;
   border-bottom: 8px solid;
+  border-color: #9b00f5;
   line-height: 1;
 }
 
