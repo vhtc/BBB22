@@ -1,4 +1,4 @@
-# Thanos JS (demo site)
+# BBB 22 (vhtc site)
 
 Silly demo site to be used for [Netlify Drop](https://app.netlify.com/drop).
 

@@ -231,24 +231,6 @@ code {
   color: red;
 }
 
-.direita {
-  position: absolute;
-  display: block;
-  margin-left: 150%;
-  margin-right: auto;
-  width: 50%;
-  margin-top: -180%;
-}
-
-.esquerda {
-  position: absolute;
-  display: block;
-  margin-left: -100%;
-  margin-right: auto;
-  width: 50%;
-  margin-top: -180%;
-}
-
 .pipoca {
   width: 30%;
   height: 30%;
@@ -256,12 +238,6 @@ code {
   margin: 10px;
 }
 
-.cam {
-  width: 15%;
-  height: 15%;
-  border-radius: 40px;
-  margin: 10px;
-}
 
 /*.pipoca:hover {
   opacity: 50%;
@@ -271,4 +247,27 @@ code {
 
 .eliminado{
   filter: grayscale();
+}
+
+
+@media (min-width: 600px) {/*esconder fotos fora do responsivo*/
+
+  .direita {
+    position: absolute;
+    display: block;
+    margin: 150px;
+    margin-left:800px;
+    width: 50%;
+    margin-top: -120%;
+  }
+  
+  .esquerda {
+    position: absolute;
+    display: block;
+    margin:150px;
+    margin-left:-500px;
+    
+    width: 50%;
+    margin-top: -120%;
+  }
 }
