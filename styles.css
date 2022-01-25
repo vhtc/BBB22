@@ -36,19 +36,19 @@ body {
 .stars-L {
   background-image: url("assets/stars-L.svg");
   background-size: 890px;
-  height: 750px;
+  height: 950px;
   animation: panning-stars 200s linear infinite alternate;
 }
 
 .stars-M {
   background-image: url("assets/stars-M.svg");
-  height: 530px;
+  height: 730px;
   animation: panning-stars 300s linear infinite alternate;
 }
 
 .stars-S {
   background-image: url("assets/stars-S.svg");
-  height: 370px;
+  height: 570px;
   animation: panning-stars 400s linear infinite alternate;
 }
 
@@ -229,4 +229,46 @@ code {
 .button2:hover {
   background-color: white;
   color: red;
+}
+
+.direita {
+  position: absolute;
+  display: block;
+  margin-left: 150%;
+  margin-right: auto;
+  width: 50%;
+  margin-top: -180%;
+}
+
+.esquerda {
+  position: absolute;
+  display: block;
+  margin-left: -100%;
+  margin-right: auto;
+  width: 50%;
+  margin-top: -180%;
+}
+
+.pipoca {
+  width: 30%;
+  height: 30%;
+  border-radius: 40px;
+  margin: 10px;
+}
+
+.cam {
+  width: 15%;
+  height: 15%;
+  border-radius: 40px;
+  margin: 10px;
+}
+
+/*.pipoca:hover {
+  opacity: 50%;
+  text-align: center;
+}
+*/
+
+.eliminado{
+  filter: grayscale();
 }
