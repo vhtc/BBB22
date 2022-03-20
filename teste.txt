@@ -1,0 +1,10 @@
+Caderno de Erros{
+    Banco de Dados{
+        .Compressão de Dados{
+            eliminação de Dados
+        }
+        .DDL{
+            Data definição language
+        }
+    }
+}

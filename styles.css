@@ -9,6 +9,17 @@ body {
   color: white;
 }
 
+.buttonredes{
+  background-color: rgba(0, 0, 0, 0);
+border: none;
+border-radius: 50%;
+color: black;
+cursor: pointer;
+}
+.amor{
+  pointer-events: none;
+}
+
 .titan-background {
   position:fixed;
   width: 100%;
